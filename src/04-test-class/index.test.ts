@@ -87,7 +87,7 @@ describe('BankAccount', () => {
     );
   });
 
-  // for both of possibilities 
+  // for both of possibilities
   test('run synchronizeBalance in original way without reMock-ing fetchBalance', async () => {
     const client = getBankAccount(0);
     try {
